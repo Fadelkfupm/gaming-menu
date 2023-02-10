@@ -1,5 +1,6 @@
 import random
 def play_rock_paper_scissors():
+    print("--------- Rock Paper Scissors ---------")
     computer_choice = random.randint(1,3)
     print("Select your action : \n"
     "[1]: Rock \n"
@@ -25,6 +26,7 @@ def play_rock_paper_scissors():
         elif computer_choice == 2:
             print("Computer choose "+ options(computer_choice) +", You win.")
 
+    print("--------- Rock Paper Scissors ---------")
 def options (x):
     if x == 1:
         return("Rock")
