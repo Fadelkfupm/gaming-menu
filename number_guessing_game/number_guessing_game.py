@@ -1,5 +1,5 @@
 import random
- def play_number_guessing_game():
+def play_number_guessing_game():
      print("--------- Number guessing ---------")
      computer_choice = random.randint(1,10)
      attempts = 3
